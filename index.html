@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo-L.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decriptador</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <p class="texto_header">Alura Challenge</p> 
+        <nav class="icones__ion">
+            <a class="icones__ion__links" href="https://github.com/Leandro-AmorimV" target="_blank">
+                <img src="img/logo-github.svg" alt="logo github">
+            </a>
+            <a class="icones__ion__links" href="www.linkedin.com/in/leandro-amorim-vicente-da-silva" target="_blank">
+                <img src="img/logo-linkedin.svg" alt="logo linkedin">
+            </a>
+            <a class="icones__ion__links" href="https://www.instagram.com/leandooors/" target="_blank">
+                <img src="img/logo-instagram.svg" alt="logo instagram">
+            </a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo__visual">
+            <h1 class="titulo">Decriptador e encriptador</h1>
+            <h2 class="subtitulo">Codifique ou decodifique uma mensagem</h2>
+        </section>
+    </main>
+
+    <div class="in__out">
+        <div class="container__input">
+            <div class="input">
+                <textarea placeholder="marta foi a cozinha pois queria ver belo jogo de xicaras" id="input-mensagem" ></textarea>
+            </div>
+        </div>
+        <div class="container__output">    
+            <div class="output">
+                <textarea placeholder="mairtai foberimes ai coberzimesnhai poberimess qufatenterrimesai venterr benterlober jobergober denter ximescairais" id="output-mensagem"></textarea>
+            </div>
+        </div>    
+    </div>
+    <div class="botoes">
+        <button onclick="criptografar()" class="botoes__criptografar">Criptograr</button>
+        <button onclick="descriptografar()" class="botoes__descriptografar">Descritografar</button>
+    </div>
+    
+        
+
+    <footer class="rodape">Leandro Amorim</footer>
+    <script src="app.js"></script>
+</body>
+</html>
